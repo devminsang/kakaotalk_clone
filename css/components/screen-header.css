@@ -18,3 +18,17 @@
 .screen-header__icons span {
   margin-left: 25px;
 }
+
+.screen-header__icons {
+  position: relative;
+}
+
+.find-screen__header-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  top: -7.5px;
+  right: -5px;
+}
